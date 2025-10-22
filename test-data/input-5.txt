@@ -1,0 +1,7 @@
+# alternating check v2
+GT4500,3,0,1,0  # init ship
+TORPEDO,SINGLE  # fire from primary
+TORPEDO,SINGLE  # fire from secondary - now empty
+TORPEDO,SINGLE  # fire from primary - no issue
+TORPEDO,SINGLE  # fire from secondary->primary should work
+TORPEDO,SINGLE  # no torpedos

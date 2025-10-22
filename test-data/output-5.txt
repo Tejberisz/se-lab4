@@ -1,0 +1,7 @@
+# alternating check v2
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS # tries to fire secondary, but that's empty - go for primary
+FAIL    # no more torpedos
