@@ -1,0 +1,4 @@
+# alternating check v3
+SUCCESS # ship init
+SUCCESS # secondary fire
+FAIL    # empty

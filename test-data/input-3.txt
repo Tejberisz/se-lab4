@@ -1,0 +1,7 @@
+# check ship creation
+GT4500,-1,0,1,1             # should not allow negative torpedos - IT DOES!!!!
+GT4500,0,0,0,0              # should allow empty stores
+GT4500,0,1,0,1              # should allow empty stores with instant failure too
+GT4500,999,0,10000000,0     # should allow big numbers
+GT4500,10,0.15,10,0.00000001# should allow decimal values
+GT4500,10,-1,10,0           # should not allow negative chances

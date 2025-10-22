@@ -1,0 +1,6 @@
+# check alternating firing
+SUCCESS # create ship
+FAIL    # fire primary
+SUCCESS # fire secondary
+FAIL    # fire primary
+SUCCESS # fire secondary

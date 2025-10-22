@@ -1,0 +1,7 @@
+# Test cases
+| Specification requirement | Tester file | Prerequirements | Steps | Expected result |
+| --- | --- | --- | --- | --- |
+| Fire a single torpedo | `input-0.txt` | An initialized ship with a torpedo | Initialize ship (non-failing torpedo stores), fire a single torpedo | `SUCCESS` |
+| Alternating firing | `input-4.txt` | An initialized ship with torpedos | Init ship, fire several single torpedos | `SUCCESS` |
+| Alternating firing 2 | `input-5.txt` | An initialized ship with a jammed primary torpedo store | Init ship, fire several single torpedos | `FAIL` for the first try, `SUCCESS` for the second |
+| Alternating firing 3 | `input-6.txt` | An initialized ship with a jammed secondary torpedo store | Init ship, fire several single torpedos | `SUCCESS` for the first try, `FAIL` for the second |
