@@ -1,0 +1,7 @@
+# check ship creation - these bugs are not mentioned in the specification
+SUCCESS # negative amount of torpedos - BUG!!! should not allow it
+SUCCESS # empty stores
+SUCCESS # empty stores
+SUCCESS # big numbers
+SUCCESS # decimals
+SUCCESS # should not allow negative chances - BUG!!! should not allow it

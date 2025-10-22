@@ -1,0 +1,8 @@
+# Check count
+SUCCESS # create ship
+SUCCESS # fire all
+SUCCESS # fire all
+SUCCESS # fire single - store levels at 0,1
+SUCCESS # fire all - no torpedo in the first store, but if any fired, it should be a success
+FAIL    # fire single - empty stores now
+FAIL    # fire all - empty stores

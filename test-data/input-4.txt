@@ -1,0 +1,7 @@
+# check alternating fire
+GT4500,10,1,10,0    # in case of failure it won't try the other torpedo
+TORPEDO,SINGLE      # should fail as primary store is jammed
+TORPEDO,SINGLE      # should succeed as secondary store works
+TORPEDO,SINGLE      # should fail again
+TORPEDO,SINGLE      # should succeed again
+EXIT                # 

@@ -1,0 +1,8 @@
+# Check count
+GT4500,3,0,3,0  # torpedos will always work
+TORPEDO,ALL     # store: 2,2
+TORPEDO,ALL     # store: 1,1
+TORPEDO,SINGLE  # store: 0,1
+TORPEDO,ALL     # fail
+TORPEDO,SINGLE  # should work fine
+TORPEDO,ALL     # should fail again
